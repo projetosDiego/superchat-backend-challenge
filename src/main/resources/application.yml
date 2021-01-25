@@ -1,6 +1,6 @@
 twilio:
   account_sid: AC79b28632609dd6d4d30d7a2168c4a495
-  auth_token: 2b09168ef4b1b5de7f3a4b2eed6b79c7
+  auth_token: "replace with the new one!"
   number: +17012050594
 
 spring:
