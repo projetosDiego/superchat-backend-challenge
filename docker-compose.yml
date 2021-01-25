@@ -1,0 +1,11 @@
+version: '3'
+services:
+   communication-compose:
+       image: communication-compose:1
+       build:
+          context: ./
+          dockerfile: Dockerfile
+       volumes:
+          - /data/communication-compose
+       ports:
+          - "8080:8080"
